@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "crud_angular_innClod_test": {
+    "crud_angular_innclod_test": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -53,10 +53,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "crud_angular_innClod_test:build:production"
+              "buildTarget": "crud_angular_innclod_test:build:production"
             },
             "development": {
-              "buildTarget": "crud_angular_innClod_test:build:development"
+              "buildTarget": "crud_angular_innclod_test:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -81,5 +81,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "25e84412-9a38-46bd-ab90-c768f60bf071"
   }
 }

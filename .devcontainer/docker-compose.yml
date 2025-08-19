@@ -1,0 +1,14 @@
+services:
+  angular_innclod:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ..:/workspace:cached
+
+    ports:
+      - "4200:4200"
+
+
+    command: sleep infinity
+      

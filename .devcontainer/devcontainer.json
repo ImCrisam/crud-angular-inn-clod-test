@@ -1,0 +1,42 @@
+{
+    "name": "crud-angular-inn-cloud-test",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "angular_innclod",
+    "workspaceFolder": "/workspace",
+    "postCreateCommand": "npm install -g @angular/cli",
+    "postStartCommand": "npm install && npm run dev",
+    // "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "angular.ng-template",
+                "esbenp.prettier-vscode",
+                "dbaeumer.vscode-eslint",
+                "firsttris.vscode-jest-runner",
+                "ecmel.vscode-html-css",
+                "shd101wyy.markdown-preview-enhanced",
+                "humao.rest-client",
+                "christian-kohler.npm-intellisense",
+                "ms-azuretools.vscode-containers",
+                "google.geminicodeassistant"
+                ]
+            }
+        },
+        "forwardPorts": [4200],
+        // "portsAttributes": {
+		// 	"4200": {
+        //         "label": "Angular App",
+        //         "autoForward": true,
+        //         "browserPreview": {
+        //             "enabled": true,
+        //             "title": "Angular App Preview",
+        //             "icon": "terminal",
+        //             "port": 4200,
+        //             "webview": true},
+
+		// 		"protocol": "https",
+        //         "onAutoForward": "openBrowser"
+		// 	}
+	    // }
+
+    }

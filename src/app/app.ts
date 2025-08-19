@@ -8,5 +8,5 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.css'
 })
 export class App {
-  protected readonly title = signal('crud_angular_innClod_test');
+  protected readonly title = signal('crud_angular_innclod_test');
 }
