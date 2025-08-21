@@ -5,6 +5,7 @@
     "workspaceFolder": "/workspace",
     "postCreateCommand": "npm install -g @angular/cli",
     "postStartCommand": "npm install && npm run dev",
+
     // "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
     "customizations": {
         "vscode": {
@@ -18,25 +19,17 @@
                 "humao.rest-client",
                 "christian-kohler.npm-intellisense",
                 "ms-azuretools.vscode-containers",
-                "google.geminicodeassistant"
+                "google.geminicodeassistant",
+                "GitHub.copilot-chat",
+                "GitHub.copilot"
                 ]
             }
         },
-        "forwardPorts": [4200],
-        // "portsAttributes": {
-		// 	"4200": {
-        //         "label": "Angular App",
-        //         "autoForward": true,
-        //         "browserPreview": {
-        //             "enabled": true,
-        //             "title": "Angular App Preview",
-        //             "icon": "terminal",
-        //             "port": 4200,
-        //             "webview": true},
-
-		// 		"protocol": "https",
-        //         "onAutoForward": "openBrowser"
-		// 	}
-	    // }
+        "forwardPorts": [
+            4200
+        ]
 
     }
+
+
+    
